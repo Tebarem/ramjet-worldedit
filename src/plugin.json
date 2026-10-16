@@ -1,0 +1,9 @@
+{
+  "id": "worldedit",
+  "name": "WorldEdit",
+  "version": "0.1.0",
+  "api": "1.0",
+  "main": "WorldEdit.WorldEditPlugin",
+  "description": "Region editing for Ramjet: selections, set and replace, copy and paste, undo and redo, walls and faces, navigation",
+  "authors": ["Ramjet"]
+}
