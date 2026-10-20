@@ -1,5 +1,7 @@
 # WorldEdit for Ramjet
 
+> **Requires `Ramjet.Api` 1.0.0-preview.3 or newer, and a server that runs it.** This plugin uses the server-side region edit API (`Edit`), which is new in that version; it does not compile against or run on older versions.
+
 Region editing for Ramjet, a Minecraft Java server: selections with a wand or coordinates, fill and replace with patterns and masks, walls and faces,
 copy, cut and paste with rotation and flips, undo and redo with memory budgets, and a few movement commands. Command names, aliases and permission
 nodes follow WorldEdit's public documentation, so admins and permission files port. The implementation is new: written from public documentation
