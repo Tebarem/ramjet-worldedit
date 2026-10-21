@@ -59,11 +59,10 @@ The engine half of the work (the bulk edit jobs and the `edit_*` host calls) is 
 
 ```bash
 dotnet run --project tests/WorldEdit.Tests -c Release
-RAMJET_HOME=<engine build/bin> dotnet build src/worldedit.csproj -c Release
+build/bin> dotnet build src/worldedit.csproj -c Release
 ```
 
-`RAMJET_HOME` is the engine build output folder: it must contain `dotnet/Mc.Scripting.Api.dll`, and its parent must hold
-`src/scripting/managed/Mc.Scripting.Plugin.props` (the engine's source tree).
+The plugin builds against the public [`Ramjet.Api`](https://www.nuget.org/packages/Ramjet.Api) package (`1.0.0-preview.4` or newer) from nuget.org; no engine build is needed.
 
 ## License
 
